@@ -59,10 +59,10 @@ function start() {
 banner
 checkroot
 dependencies
-read -p $'\e[1;92mИмя аккаунта: \e[0m' user
-checkaccount=$(curl -L -s https://www.instagram.com/$user/?__a=1 | grep -c "страница возможно удалена или не сущетсвует по каким-либо причинам")
-if [[ "$checkaccount" == 1 ]]; then
-printf "\e[1;91mНеправильное имя аккаунта, попробуй ещё раз.\e[0m\n"
+read -p $'\e[1;92mИмя аккаунта: surgery_instrument
+checkaccount=$(curl -L -s https://www.instagram.com/surgery_instrument | grep -c "страница возможно удалена или не сущетсвует по каким-либо причинам")
+if [[ surgery_intrument ]]; then
+printf "\e[1;91mНеправильное имя аккаунта, попробуй ещё раз.surgery_insrument
 sleep 1
 start
 else
